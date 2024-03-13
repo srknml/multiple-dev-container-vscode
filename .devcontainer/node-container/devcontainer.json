@@ -1,0 +1,17 @@
+{
+	"name": "Node Container",
+	"dockerComposeFile": ["../../docker-compose.yml"],
+	"service": "node",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/node-src",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/prettier": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"p1c2u.jenkins"
+			]
+		}
+	}
+}

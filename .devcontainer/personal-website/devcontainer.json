@@ -1,0 +1,19 @@
+{
+    "name": "Personal Website",
+    "dockerComposeFile": [
+        "../../docker-compose.yml"
+    ],
+    "service": "next",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/personal-website",
+    "features": {
+        
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "p1c2u.jenkins"
+            ]
+        }
+    }
+}

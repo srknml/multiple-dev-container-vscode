@@ -1,0 +1,17 @@
+{
+	"name": "Python Container",
+	"dockerComposeFile": ["../../docker-compose.yml"],
+	"service": "python",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/python-src",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/http-server": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"p1c2u.jenkins"
+			]
+		}
+	}
+}
